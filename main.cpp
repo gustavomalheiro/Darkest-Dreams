@@ -9,6 +9,7 @@ int main() {
     int x, y, raio;
     int passox, passoy;
     int FPS;
+    int teste;
     char tecla = 0;
     unsigned long long gt1, gt2;
     int tam;
@@ -31,6 +32,9 @@ int main() {
     passox = 10;
     passoy = 10;
     FPS = 60;
+    
+    // testando a branch
+    teste = 1000;
 	
 	//loop principal do jogo
     while(!Fim) {
